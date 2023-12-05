@@ -7,10 +7,10 @@ class Person {
   String city;
   String country;
 
-
+  //This is a class constructor that uses syntactic sugar
   Person(this.name, this.age, this.salary, this.city, this.country);
 
-
+  //This is a named constructor called initialize
   Person.initialize(){
     name = "Ahmed";
     age = 44;
