@@ -5,12 +5,14 @@ class Employee{
 
 }
 main(List<String> arguments) {
-
+  // listName is a list that holds objects of type Employee
   var listName = new List<Employee>();
+  // created three instances of Employee
   var muhammed = new Employee('Muhammed');
- var essa = new Employee('essa');
+  var essa = new Employee('essa');
   var hameed = new Employee('Hameed');
 
+  // instances of Employee are added to listName
   listName.add(muhammed);
   listName.add(essa);
   listName.add(hameed);
