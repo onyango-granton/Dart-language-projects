@@ -1,6 +1,9 @@
+//Abstract class is a class that cannot be instantiated directly but its meant to be subclassed
 abstract class Employee{
+  //fullName(), employeeDept() are abstract methods
   void fullName();
   void employeeDept();
+  //employeeSalary is a regular method
   void employeeSalary(){
     print('your salasy is 4000');
   }
